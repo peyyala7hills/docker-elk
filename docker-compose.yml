@@ -1,6 +1,6 @@
  version: '3.2'
 
-services:
+ services:
   elasticsearch:
     build:
       context: elasticsearch/
@@ -91,9 +91,9 @@ services:
     networks:
       - elk
 
-networks:
+ networks:
   elk:
     driver: bridge
 
-volumes:
+ volumes:
   elasticsearch:
